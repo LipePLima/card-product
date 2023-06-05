@@ -1,0 +1,6 @@
+.content__type {
+     color: hsl(158, 36%, 37%);
+     font-family: 'Montserrat', sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+}
