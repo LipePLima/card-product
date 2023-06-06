@@ -13,18 +13,22 @@
      grid-template-areas: 
           "remoove num adde"
      ;
-     border: 1px solid #949494;
+     border: 1px solid #cdcdcd;
      border-radius: 10px;
 }
 
 .quantify__btn {
      height: 100%;
+     background-color: hsl(0 10% 97% / 1);
      border: none;
+
+     color: hsl(228, 12%, 48%);
      text-align: center;
 }
 
 .quantify__btn:active {
      background-color: #d8d8d8;
+     color: hsl(0, 0%, 0%);
 }
 
 .quantify__remove {
@@ -38,6 +42,7 @@
      display: inline-block;
      width: 100%;
 
+     color: hsl(228, 12%, 48%);
      font-size: 20px;
      text-align: center;
 }
