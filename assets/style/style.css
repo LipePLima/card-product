@@ -33,4 +33,6 @@ body {
      width: calc(100% - 60px);
      height: calc(100% - 64px);
      padding: 32px 30px;
+
+     font-family: 'Montserrat', sans-serif;
 }
