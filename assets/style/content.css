@@ -9,10 +9,29 @@
      color: hsl(212, 21%, 14%);
      font-family: 'Fraunces', serif;
      font-size: 34px;
+     margin: 1.2rem 0;
 }
 
 .content__text {
      width: 84%;
      color: hsl(228, 12%, 48%);
      line-height: 1.6rem;
+}
+
+.content__price {
+     display: flex;
+     align-items: center;
+     margin-bottom: 1rem;
+}
+
+.price__principal {
+     margin-right: .8rem;
+     color: hsl(158, 36%, 37%);
+     font-family: 'Fraunces', serif;
+     font-size: 30px;
+}
+
+.prince__old {
+     color: hsl(228, 12%, 48%);
+     text-decoration: line-through;
 }
