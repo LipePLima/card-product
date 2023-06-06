@@ -1,0 +1,84 @@
+.content__buttons {
+     display: grid;
+     grid-template-areas: 
+          "quantify . buy"
+     ;
+}
+
+.btn-quantify {
+     grid-area: quantify;
+     display: grid;
+     align-items: center;
+     grid-template-columns: auto 30px auto;
+     grid-template-areas: 
+          "remoove num adde"
+     ;
+     border: 1px solid #1d1d1d;
+     border-radius: 10px;
+}
+
+.quantify__btn {
+     height: 100%;
+     border: none;
+     text-align: center;
+}
+
+.quantify__btn:active {
+     background-color: #d8d8d8;
+}
+
+.quantify__remove {
+     cursor: pointer;
+     grid-area: remoove;
+     border-radius: 10px 0 0 10px;
+}
+
+.quantify__num {
+     grid-area: num;
+     display: inline-block;
+     width: 100%;
+
+     font-size: 20px;
+     text-align: center;
+}
+
+.quantify__add {
+     cursor: pointer;
+     grid-area: adde;
+     border-radius: 0 10px 10px 0;
+}
+
+.btn-buy {
+     grid-area: buy;
+     cursor: pointer;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     width: 100%;
+     height: 46px;
+     background-color: hsl(158, 36%, 37%);
+
+     border: none;
+     border-radius: 10px;
+
+     color: hsl(0, 0%, 100%);
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px
+}
+
+.btn-buy:active {
+     background-color: hsl(158, 36%, 30%);
+}
+
+.btn__img {
+     display: inline-block;
+     width: 14px;
+     height: 14px;
+     margin-right: .5rem;
+
+     background-image: url('../images/icon-cart.svg');
+     background-position: center;
+     background-size: cover;
+}
