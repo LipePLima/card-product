@@ -1,0 +1,71 @@
+@media screen and (max-width: 650px) {
+     .container {
+          grid-template-rows: 40%;
+          grid-template-columns: auto;
+          grid-template-areas:
+               "img"
+               "content";
+          height: 90%;
+          border-radius: 20px;
+     }
+
+     .container__img {
+          background-image: url('/assets/images/image-product-mobile.jpg');
+          border-radius: 20px 20px 0 0;
+     }
+
+     .container__content {
+          padding: 16px 18px 0 18px;
+      }
+
+     .content__title {
+          margin: 1rem 0;
+     }
+
+     .content__text {
+          margin: 0 0 1rem 0;
+     }
+
+     .content__price {
+          margin-bottom: 1rem;
+     }
+
+     .price__principal {
+          font-size: 30px;
+     } 
+
+     .btn-quantify {
+          height: 40px;
+     }
+
+     .btn-buy {
+          height: 40px;
+     }
+}
+
+@media screen and (max-width: 411px) {
+     .content__title {
+          font-size: 30px;
+          margin: .5rem 0;
+     }
+
+     .content__text {
+          margin: 0 0 1rem 0;
+     }
+
+     .content__price {
+          margin-bottom: 1rem;
+     }
+
+     .price__principal {
+          font-size: 28px;
+     } 
+
+     .btn-quantify {
+          height: 40px;
+     }
+
+     .btn-buy {
+          height: 40px;
+     }
+}

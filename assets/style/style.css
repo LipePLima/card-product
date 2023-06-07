@@ -13,10 +13,11 @@ body {
 
 .container {
      display: grid;
+     grid-template-columns: 45%;
      grid-template-areas: 
           "img img content"
      ;
-     width: 50vw;
+     max-width: 650px;
      border-radius: 10px;
      background-color: hsl(0, 0%, 100%);
 }
@@ -26,12 +27,14 @@ body {
      width: 100%;
      height: 100%;
      border-radius: 10px 0 0 10px;
+
+     background-image: url('../images/image-product-desktop.jpg');
+     background-position: center;
+     background-size: cover;
 }
 
 .container__content {
      grid-area: content;
-     width: calc(100% - 60px);
-     height: calc(100% - 64px);
      padding: 32px 30px;
 
      font-family: 'Montserrat', sans-serif;
